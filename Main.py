@@ -9,7 +9,7 @@ def Init():
     ch_options = Options()
     ch_options.add_argument("--headless")
     global TargetTime
-    TargetTime = "2023-07-12 23:00:00.00000000"  # 设置抢购时间
+    TargetTime = "2023-07-10 12:00:00.00000000"  # 设置抢购时间
 
     global WebDriver
     # WebDriver = webdriver.Chrome(chrome_options=ch_options)         #使用headless游览器，速度更快
